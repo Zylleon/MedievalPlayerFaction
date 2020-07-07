@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Medieval Player Faction</name>
+	<author>Zylle</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>zylle.MedievalPlayerFaction</packageId>
+	<description>
+Adds a new player faction with a pre-industrial tech level, and a corresponding starting scenario. Does not add any new tech.
+
+Research costs will be higher than for "New Arrivals" and lower than for "New Tribe"
+
+
+-------------------------
+Discord: https://discord.gg/4EFv76C
+ko-fi: https://ko-fi.com/zylleon
+My other mods: https://steamcommunity.com/profiles/76561197998830956/myworkshopfiles/?appid=294100
+
+
+	</description>
+</ModMetaData>
+

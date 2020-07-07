@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ResearchProjectTagDef>
+    <defName>ZMedStart</defName>
+  </ResearchProjectTagDef>
+  
+  <!-- in case someone wants to use this -->
+  <ResearchProjectTagDef>
+    <defName>ZMedStartTechprints</defName>
+  </ResearchProjectTagDef>
+  
+</Defs>

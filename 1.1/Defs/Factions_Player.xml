@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>ZPlayerMedievalSettlement</defName>
+    <label>New Settlement</label>
+    <description>A pre-industrial settlement.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+      <li>ZMedStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ZMedStart</li>
+      <li>ZMedStartTechprints</li>
+    </startingTechprintsResearchTags>
+	<hairTags>
+		<li>Urban</li>
+	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+		</thingDefs>
+	</apparelStuffFilter>
+  </FactionDef>
+
+</Defs>

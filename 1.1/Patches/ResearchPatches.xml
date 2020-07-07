@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ResearchProjectDef[defName="Pemmican" or defName="ComplexClothing" or defName="ComplexFurniture" or defName="Stonecutting" or defName="PassiveCooler"]/tags</xpath>
+			<value>
+                <li>ZMedStart</li>
+            </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]</xpath>
+			<value>
+				<tags>
+					<li>ZMedStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Brewing"]/tags</xpath>
+			<value>
+				<li>ZMedStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Smithing"]</xpath>
+			<value>
+				<tags>
+					<li>ZMedStart</li>
+				</tags>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ResearchProjectDef[defName="Smithing"]/tags</xpath>
+			<value>
+				<li>ZMedStart</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>
